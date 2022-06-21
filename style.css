@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(rgba(255, 192, 203, 0.241), transparent);
+    margin: 0;
+    line-height: 5rem;
+}
+
+p {
+    text-align: center;
+    background: linear-gradient(transparent,rgba(192, 225, 255, 0.241), transparent);
+    line-height: 5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+#quiz-list > li::before {
+    content: "#";
+}
+#quiz-list > li {
+    /* padding-top: 16px; */
+    padding-bottom: 16px;
+}
+
+#quiz-list > li > ul > li {
+    margin-top: 8px;
+}
+
+#quiz-list > li > ul > li:nth-child(5),
+#quiz-list > li > ul > li:nth-child(6) {
+    background-color:rgba(192, 225, 255, 0.241);
+    color: transparent;
+    cursor: pointer;
+}
+
+#quiz-list > li > ul > li:nth-child(5):hover,
+#quiz-list > li > ul > li:nth-child(6):hover {
+    color:inherit;
+    cursor: pointer;
+}
