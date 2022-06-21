@@ -7,14 +7,14 @@ body {
 
 h1 {
     text-align: center;
-    background: linear-gradient(rgba(255, 192, 203, 0.241), transparent);
+/*     background: linear-gradient(rgba(255, 192, 203, 0.241), transparent); */
     margin: 0;
     line-height: 5rem;
 }
 
 p {
     text-align: center;
-    background: linear-gradient(transparent,rgba(192, 225, 255, 0.241), transparent);
+/*     background: linear-gradient(transparent,rgba(192, 225, 255, 0.241), transparent); */
     line-height: 5rem;
 }
 
